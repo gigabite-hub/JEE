@@ -1,0 +1,569 @@
+<?php include "config.php"; ?>
+<!DOCTYPE html>
+<html>
+<head>
+<?php include "top.php"; ?>
+<style>
+body.modal-open .modal-dialog { /* Width */
+	max-width: 100%;
+	width: auto !important;
+	display: inline-block;
+}
+body.modal-open .modal {
+	display: flex !important;
+}
+</style>
+</head>
+<body>
+<div id="wrapper">
+  <?php include "header.php"; ?>
+  <main id="main">
+    <div id="hero" class="section-alt2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 animatesd slideInLesft animatse-3"> 
+            <!--<p><img src="assets/images/AskMIA-logo.png" alt="" style="width: 100px !important;"></p>-->
+            <p style="font-size:20px; margin:15px 0 20px;"><span style="font-size:42px;">AskMIA™</span> is a proprietary tool that can give <strong>independent, franchised and specialty retailers</strong> an additional customer service edge on big corporates. An easy tool that can connect your customers to your business in real time using their mobile phones.</p>
+            <p style="font-size:20px; margin:0 0 20px;">With this patent pending tool, you will drive more loyal customers through your front door, increase profit, and the <strong>local business</strong> advertising opportunities alone <em><strong>can pay for the service itself!</strong></em> </p>
+            <p style="font-size:20px; margin:0 0 20px;">All this for the monthly cost of one day's pay for an employee!</p>
+            <p style="font-size:20px; font-weight:bold; margin:0 0 20px;">How it works?</p>
+            <div class="row">
+              <div class="col-md-6" style="margin-bottom:15px;"> <a href="for-consumers.php" class="btn btn-default btn-block">For Consumers</a> </div>
+              <div class="col-md-6" style="margin-bottom:15px;"> <a href="for-retailers.php" class="btn btn-default btn-block">For Retailers</a> </div>
+            </div>
+            <!--
+            <p><span style="font-size:20px; font-weight:bold;">Compatible Everywhere:</span></p>
+            <p><img src="assets/images/ut-edu-os-g.png" class="img-responsive" alt=""></p>
+            --> 
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-6 animated slideInLeft animate-3">
+                <div id="phone-img">
+                  <div class="phone1-slider">
+                    <div> <img src="assets/images/part1.png" class="img-responsive" alt="" /> </div>
+                    <div> <img src="assets/images/part2.png" class="img-responsive" alt="" /> </div>
+                    <div> <img src="assets/images/part3.png" class="img-responsive" alt="" /> </div>
+                    <div> <img src="assets/images/part4.png" class="img-responsive" alt="" /> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 animated slideInRight animate-3">
+                <div id="phone-img">
+                  <div class="phone2-slider">
+                    <div> <img src="assets/images/part2.png" class="img-responsive" alt="" /> </div>
+                    <div> <img src="assets/images/part3.png" class="img-responsive" alt="" /> </div>
+                    <div> <img src="assets/images/part4.png" class="img-responsive" alt="" /> </div>
+                    <div> <img src="assets/images/part1.png" class="img-responsive" alt="" /> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12" style="display:none;">
+                <p><span style="font-size:20px; font-weight:bold;">Compatible Everywhere:</span></p>
+                <p><img src="assets/images/ut-edu-os-g.png" class="img-responsive" alt=""></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="benefits" class="section-alt1">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 lazy-fade-l">
+            <div class="blurb-content text-center">
+              <div class="blurb-image lazy"> <span class="blurb-icon"> <i class="fa fa-download" aria-hidden="true"></i> </span> </div>
+              <div class="blurb-container">
+                <h4 class="blurb-header lazy-fade-u">NO DOWNLOADS</h4>
+                <div class="blurb-description lazy-fade-l">
+                  <p>No downloads, apps, or logins required for consumers</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="blurb-content text-center">
+              <div class="blurb-image lazy"> <span class="blurb-icon"> <i class="fa fa-cogs"></i> </span> </div>
+              <div class="blurb-container">
+                <h4 class="blurb-header lazy-fade-u">NO HARDWARE</h4>
+                <div class="blurb-description lazy-fade-l">
+                  <p>No new hardware or integration required for retailers</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 lazy-fade-r">
+            <div class="blurb-content text-center">
+              <div class="blurb-image lazy"> <span class="blurb-icon"> <i class="fa fa-users" aria-hidden="true"></i> </span> </div>
+              <div class="blurb-container">
+                <h4 class="blurb-header lazy-fade-u">NO STAFF</h4>
+                <div class="blurb-description lazy-fade-l">
+                  <p>No IT staff required- turnkey, customize, edit on the fly</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="endorsements">
+      <div class="container">
+        <div class="text-center lazy-fade-l"> <img src="assets/images/endorsements.png" class="img-responsive center-block" /> </div>
+      </div>
+    </div>
+    <div id="testimonials" class="section-alt2">
+      <div class="container">
+        <div class="testimonials text-center">
+          <div class="testimonial ">
+            <p class="lazy-fade-u"> <i class="fa fa-quote-left" aria-hidden="true"></i> AskMIA is so simple, it produces results, and has reduced losses from unsold perishables.  Our customers love its simplicity, and that has ultimately translated to a 14% increase in checkout sales.  Best of all, we have local businesses that are advertising on our AskMIA page and that revenue pays for the Jibbio "free" service!  Fabulous model. </p>
+            <p class="testimonial-author lazy-fade-l"><strong>Nora S., Food & grocery store</strong></p>
+          </div>
+          <div class="testimonial">
+            <p class="lazy-fade-u"> <i class="fa fa-quote-left" aria-hidden="true"></i> Jibbio has helped our fitness club become more efficient and profitable in a matter of months. Not only does AskMIA consolidate several of our marketing initiatives, but it enables us to do it quickly and easily with no I.T. staff required.  I don't like tech, but I love it. Cheers. </p>
+            <p class="testimonial-author lazy-fade-l"><strong>Greg T., Health & fitness club</strong></p>
+          </div>
+          <div class="testimonial">
+            <p class="lazy-fade-u"> <i class="fa fa-quote-left" aria-hidden="true"></i> Don't think about it, and just do it.  AskMIA rocks, and it does exactly what I as a business owner wants- more sales and customers.  Sales have gone up 10%.  And the fact that you can offer local businesses advertising opportunities to essentially pay for the cost of this service, makes it an absolute no-brainer. </p>
+            <p class="testimonial-author lazy-fade-l"><strong>Fred B., Sporting goods retailer</strong></p>
+          </div>
+          <div class="testimonial">
+            <p class="lazy-fade-u"> <i class="fa fa-quote-left" aria-hidden="true"></i> As a franchisee of a large American company, you can't always sit back and rely on headquarters to launch massive marketing campaigns which in reality, can only do so much when it pertains to local-centric marketing for each store.  Your company has figured out an easy solution that is beneficial for any independent business, especially for the retail sector.  The AskMIA tool has given us the ability to market and sell sitting products, provides a non-intrusive way for consumers to tell us what they're looking to buy, which has reduced the number of consumers leaving our store empty-handed.  Your claims are accurate- we're getting more customers walking through our front door, and monthly sales have increased over 15%.  Fantastic DIY service. </p>
+            <p class="testimonial-author lazy-fade-l"><strong>Tony L., Hardware store</strong></p>
+          </div>
+          <div class="testimonial">
+            <p class="lazy-fade-u"> <i class="fa fa-quote-left" aria-hidden="true"></i> We operate three cosmetic and laser clinics, and our company has tried several marketing tools in over 15 years.  AskMIA is outstanding and more importantly, our customers are using it.  Having the ability for each of our clinics to create real-time daily or special offers tailored for their clientele with clicks of the mouse, is so powerful and rewarding.  Furthermore, the ability to pre-purchase special offers has translated to more new client sales.  As a direct result of your service, our sales has increased over 20% in two of the three locations, and our clients love it.  Stellar product, and great service. </p>
+            <p class="testimonial-author lazy-fade-l"><strong>Joshua K., Laser cosmetic clinic</strong></p>
+          </div>
+          <div class="testimonial">
+            <p class="lazy-fade-u"> <i class="fa fa-quote-left" aria-hidden="true"></i> Without the hype, AskMIA is what every business should have as part of their marketing arsenal.  I have yet to see another tool that allows the business to combine so many facets into one simple page.  We now post the same link to the AskMIA page on social media and it has everything we want people to see.  No need for multiple posts or different email campaigns which many times go unnoticed.  It literally takes seconds for us to change our daily, weekly, and purchase specials, which is a game-changer.  At the end of the day I need customers, and AskMIA does drive more dine-in traffic.  Excellent tool, and well worth the cost.  Thank you. </p>
+            <p class="testimonial-author lazy-fade-l"><strong>Angelo F., Restaurant & bar</strong></p>
+          </div>
+        </div>
+        <div class="text-center lazy-fade-d" style="margin-top:20px;"> <a href="testimonials.php" class="btn btn-default">More Testimonials</a> </div>
+      </div>
+    </div>
+    <div id="by-the-numbers" class="section-alt1">
+      <div class="container">
+        <div class="default-header text-center lazy-fade-u">
+          <h1>By the Numbers</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-10">
+            <div class="row graph lazy-zoom-out">
+              <div class="col-md-7">
+                <ul>
+                  <li class="lazy-fade-l"><strong style="color:#0188ca;">24% to 83%</strong> increase in customer engagement, compared to traditional digital methods</li>
+                  <li class="lazy-fade-l">Average customer engagement increase of <strong style="color:#0188ca;">54%</strong> across the board within various vertical markets</li>
+                  <li class="lazy-fade-l">Average increase in checkout sales of up to <strong style="color:#0188ca;">32%</strong></li>
+                </ul>
+                <div class="lazy-fade-r"> <img src="assets/images/increase-profit-line-graph.png" class="img-responsive center-block visible-xs"/> </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-1"></div>
+        </div>
+      </div>
+    </div>
+    <div id="faqs" class="section-alt2">
+      <div class="container-fluid">
+        <div class="default-header text-center lazy-fade-u">
+          <h1>Forget the Sales Jargon – in plain English</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="accordion md-accordion accordion-faq" id="accordion-faq-1" role="tablist" aria-multiselectable="true">
+              <div class="panel lazy-fade-l">
+                <div class="panel-header" role="tab" id="heading10"> <a data-toggle="collapse" data-parent="#accordion-faq-1" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                  <h4><span class="faq-num">1</span> <span class="faq-question">What is AskMIA™?</span> <i class="fa fa-plus-circle icon-rotate"></i></h4>
+                  </a> </div>
+                <div id="collapse1" class="collapse" role="tabpanel" aria-labelledby="heading1" data-parent="#accordion-faq-1">
+                  <div class="panel-body">
+                    <p>It's a 7-in-1, customer-driven online toolset.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel lazy-fade-l">
+                <div class="panel-header" role="tab" id="heading10"> <a data-toggle="collapse" data-parent="#accordion-faq-2" href="#collapse2" aria-expanded="true" aria-controls="collapse1">
+                  <h4><span class="faq-num">2</span> <span class="faq-question">What does it do?</span> <i class="fa fa-plus-circle icon-rotate"></i></h4>
+                  </a> </div>
+                <div id="collapse2" class="collapse" role="tabpanel" aria-labelledby="heading1" data-parent="#accordion-faq-2">
+                  <div class="panel-body">
+                    <p>It'll drive more customers through your front door.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel lazy-fade-l">
+                <div class="panel-header" role="tab" id="heading10"> <a data-toggle="collapse" data-parent="#accordion-faq-3" href="#collapse3" aria-expanded="true" aria-controls="collapse1">
+                  <h4><span class="faq-num">3</span> <span class="faq-question">How are you so sure?</span> <i class="fa fa-plus-circle icon-rotate"></i></h4>
+                  </a> </div>
+                <div id="collapse3" class="collapse" role="tabpanel" aria-labelledby="heading1" data-parent="#accordion-faq-3">
+                  <div class="panel-body">
+                    <p>AskMIA™ was developed through the input and feedback of <strong>1,473</strong> consumers who all loved it, and each stated that they would use AskMIA™ if it became available.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel lazy-fade-l">
+                <div class="panel-header" role="tab" id="heading10"> <a data-toggle="collapse" data-parent="#accordion-faq-4" href="#collapse4" aria-expanded="true" aria-controls="collapse1">
+                  <h4><span class="faq-num">4</span> <span class="faq-question">What will it do for the CONSUMER?</span> <i class="fa fa-plus-circle icon-rotate"></i></h4>
+                  </a> </div>
+                <div id="collapse4" class="collapse" role="tabpanel" aria-labelledby="heading1" data-parent="#accordion-faq-4">
+                  <div class="panel-body">
+                    <p>Offer real-time savings, service, and convenience in one. <a href="for-consumers.php">Learn more</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel lazy-fade-l">
+                <div class="panel-header" role="tab" id="heading10"> <a data-toggle="collapse" data-parent="#accordion-faq-5" href="#collapse5" aria-expanded="true" aria-controls="collapse1">
+                  <h4><span class="faq-num">5</span> <span class="faq-question">What will it do for the RETAILER?</span> <i class="fa fa-plus-circle icon-rotate"></i></h4>
+                  </a> </div>
+                <div id="collapse5" class="collapse" role="tabpanel" aria-labelledby="heading1" data-parent="#accordion-faq-5">
+                  <div class="panel-body">
+                    <p>Increase sales and reduce losses from sitting inventory. <a href="for-retailers.php">Learn more</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="accordion md-accordion accordion-faq" id="accordion-faq-2" role="tablist" aria-multiselectable="true">
+              <div class="panel lazy-fade-r">
+                <div class="panel-header" role="tab" id="heading10"> <a data-toggle="collapse" data-parent="#accordion-faq-6" href="#collapse6" aria-expanded="true" aria-controls="collapse1">
+                  <h4><span class="faq-num">6</span> <span class="faq-question">Is it disability-inclusive?</span> <i class="fa fa-plus-circle icon-rotate"></i></h4>
+                  </a> </div>
+                <div id="collapse6" class="collapse" role="tabpanel" aria-labelledby="heading1" data-parent="#accordion-faq-6">
+                  <div class="panel-body">
+                    <p>Yes, it meets the highest <a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank">WCAG 2.0 Level AAA</a> accessibility technical standards.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel lazy-fade-r">
+                <div class="panel-header" role="tab" id="heading10"> <a data-toggle="collapse" data-parent="#accordion-faq-7" href="#collapse7" aria-expanded="true" aria-controls="collapse1">
+                  <h4><span class="faq-num">7</span> <span class="faq-question">Is it an e-commerce application?</span> <i class="fa fa-plus-circle icon-rotate"></i></h4>
+                  </a> </div>
+                <div id="collapse7" class="collapse" role="tabpanel" aria-labelledby="heading1" data-parent="#accordion-faq-7">
+                  <div class="panel-body">
+                    <p>No, it's an effective tool to increase in-store commerce.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel lazy-fade-r">
+                <div class="panel-header" role="tab" id="heading10"> <a data-toggle="collapse" data-parent="#accordion-faq-8" href="#collapse8" aria-expanded="true" aria-controls="collapse1">
+                  <h4><span class="faq-num">8</span> <span class="faq-question">Is it a mobile app?</span> <i class="fa fa-plus-circle icon-rotate"></i></h4>
+                  </a> </div>
+                <div id="collapse8" class="collapse" role="tabpanel" aria-labelledby="heading1" data-parent="#accordion-faq-8">
+                  <div class="panel-body">
+                    <p>No, it's a cloud-based application accessible from any internet-enabled device.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel lazy-fade-r">
+                <div class="panel-header" role="tab" id="heading10"> <a data-toggle="collapse" data-parent="#accordion-faq-9" href="#collapse9" aria-expanded="true" aria-controls="collapse1">
+                  <h4><span class="faq-num">9</span> <span class="faq-question">Competitive edge?</span> <i class="fa fa-plus-circle icon-rotate"></i></h4>
+                  </a> </div>
+                <div id="collapse9" class="collapse" role="tabpanel" aria-labelledby="heading1" data-parent="#accordion-faq-9">
+                  <div class="panel-body">
+                    <p>There is no other customer-driven toolset comparable to AskMIA™ available today.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel lazy-fade-r">
+                <div class="panel-header" role="tab" id="heading10"> <a data-toggle="collapse" data-parent="#accordion-faq-10" href="#collapse10" aria-expanded="true" aria-controls="collapse1">
+                  <h4><span class="faq-num">10</span> <span class="faq-question">Anything else to note?</span> <i class="fa fa-plus-circle icon-rotate"></i></h4>
+                  </a> </div>
+                <div id="collapse10" class="collapse" role="tabpanel" aria-labelledby="heading1" data-parent="#accordion-faq-10">
+                  <div class="panel-body">
+                    <p>AskMIA™ is a patent pending (62/651,746) proprietary tool that can give <strong>independent, franchised, and specialty retailers</strong> an additional customer service edge on big corporates.</p>
+                    <p>An easy tool that can connect your customers to your business in real time using their mobile phones to ultimately increase <strong>loyalty and sales</strong>.</p>
+                    <p>With this tool, you will drive more customers through your front door, increase profit, and the local business advertising opportunities alone can <a href="for-retailers.php">pay for the service itself!</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="toolset" class="section-alt1">
+      <div class="container">
+        <div class="default-header text-center lazy-fade-u">
+          <h1>7-in-1 Toolset</h1>
+        </div>
+        <h2 class="sub-heading text-center lazy-fade-d">DIGITAL ■ PRINT ■ ACCESSIBILITY</h2>
+        <div style="padding:0">
+          <div class="row">
+            <div class="col-md-3 lazy-fade-l">
+              <div class="form-thumb">
+                <div class="form-icon lazy"><i class="fa fa-wpforms" aria-hidden="true"></i></div>
+                <div class="form-desc lazy-fade-u">
+                  <h3>Minisite Forms</h3>
+                </div>
+                <div class="form-blt lazy-fade-d"><strong>UNLIMITED</strong> forms, responses, payments</div>
+                <div class="form-button lazy-fade-l"><a class="btn btn-default" href="minisite-forms.php">Read More</a></div>
+              </div>
+            </div>
+            <div class="col-md-3 lazy-fade-l">
+              <div class="form-thumb">
+                <div class="form-icon lazy"><i class="fa fa-calendar" aria-hidden="true"></i></div>
+                <div class="form-desc lazy-fade-u">
+                  <h3>Online Scheduling</h3>
+                </div>
+                <div class="form-blt lazy-fade-d"><strong>UNLIMITED</strong> staff, services, and appointments</div>
+                <div class="form-button  lazy-fade-l"><a class="btn btn-default" href="online-scheduling.php">Read More</a></div>
+              </div>
+            </div>
+            <div class="col-md-3 lazy-fade-l">
+              <div class="form-thumb">
+                <div class="form-icon lazy"><i class="fa fa-envelope " aria-hidden="true"></i></div>
+                <div class="form-desc lazy-fade-u">
+                  <h3>Email Marketing</h3>
+                </div>
+                <div class="form-blt lazy-fade-d"><strong>UNLIMITED</strong> opt-in contacts</div>
+                <div class="form-button  lazy-fade-l"><a class="btn btn-default" href="email-marketing.php">Read More</a></div>
+              </div>
+            </div>
+            <div class="col-md-3 lazy-fade-l">
+              <div class="form-thumb">
+                <div class="form-icon lazy"><i class="fa fa-qrcode" aria-hidden="true"></i></div>
+                <div class="form-desc lazy-fade-u">
+                  <h3>3-in-1 QR Codes</h3>
+                </div>
+                <div class="form-blt lazy-fade-d"><strong>UNLIMITED</strong> interchangeable QR codes</div>
+                <div class="form-button  lazy-fade-l"><a class="btn btn-default" href="3-in-1-qr-codes.php">Read More</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="row row-centered text-center">
+            <div class="col-md-3 lazy-fade-l">
+              <div class="form-thumb">
+                <div class="form-icon lazy"><i class="fa fa-tags" aria-hidden="true"></i></div>
+                <div class="form-desc lazy-fade-u">
+                  <h3>Online Coupons</h3>
+                </div>
+                <div class="form-blt lazy-fade-d"><strong>UNLIMITED</strong> online coupons</div>
+                <div class="form-button  lazy-fade-l"><a class="btn btn-default" href="online-coupons.php">Read More</a></div>
+              </div>
+            </div>
+            <div class="col-md-3 lazy-fade-l">
+              <div class="form-thumb">
+                <div class="form-icon lazy"><i class="fa fa-external-link" aria-hidden="true"></i></div>
+                <div class="form-desc lazy-fade-u">
+                  <h3>URL Shortening</h3>
+                </div>
+                <div class="form-blt lazy-fade-d"><strong>UNLIMITED</strong> branded short links</div>
+                <div class="form-button  lazy-fade-l"><a class="btn btn-default" href="url-shortening.php">Read More</a></div>
+              </div>
+            </div>
+            <div class="col-md-3 lazy-fade-l">
+              <div class="form-thumb">
+                <div class="form-icon lazy"><i class="fa fa-wheelchair" aria-hidden="true"></i></div>
+                <div class="form-desc lazy-fade-u">
+                  <h3>Accessibility Compliance</h3>
+                </div>
+                <div class="form-blt lazy-fade-d"><strong>UNLIMITED</strong> staff accessibility eTraining</div>
+                <div class="form-button  lazy-fade-l"><a class="btn btn-default" href="AODA-compliance.php">Read More</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="pricing" class="section-alt2">
+      <div class="container">
+        <div class="default-header text-center lazy-fade-u">
+          <h1>Pricing</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-3 lazy-fade-l">
+            <div class="plan-item">
+              <div class="plan-details">
+                <div class="plan-title"> <span>AskMIA™</span> Monthly Service </div>
+                <div class="plan-price"> $140.00<span style="font-size:16px;">/mo</span> <br>
+                  <span class="period">per location </span> </div>
+                <a href="https://member.jibbio.com/signup.php?" class="btn btn-default"> Join <i class="fa fa fa-caret-right" aria-hidden="true"></i> </a> </div>
+              <ul class="plan-info">
+                <li> Month-to-month, no contracts. 30-day money back guarantee. </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 lazy-fade-l">
+            <div class="plan-item">
+              <div class="plan-details">
+                <div class="plan-title"> <span>AskMIA™</span> Annual License </div>
+                <div class="plan-price"> $1680.00<span style="font-size:16px;">/yr</span> <br>
+                  <span class="period">per location </span> </div>
+                <a href="https://member.jibbio.com/signup.php?" class="btn btn-default"> Join <i class="fa fa fa-caret-right" aria-hidden="true"></i> </a> </div>
+              <ul class="plan-info">
+                <li> Pay for the year and SAVE 20%! Contact us for a license code. </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 lazy-fade-r">
+            <div class="plan-item c2">
+              <div class="plan-details">
+                <div class="plan-title"><span> C2 &amp; C.L.E.A.R.</span>Monthly Service </div>
+                <div class="plan-price"> $240.00<span style="font-size:16px;">/mo</span> <br>
+                  <span class="period">per location</span> </div>
+                <a href="https://member.jibbio.com/signup.php?" class="btn btn-default"> Join <i class="fa fa fa-caret-right" aria-hidden="true"></i> </a> </div>
+              <ul class="plan-info">
+                <li> Month-to-month, no contracts. 30-day money back guarantee. </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 lazy-fade-r">
+            <div class="plan-item c2">
+              <div class="plan-details">
+                <div class="plan-title"><span>C2 &amp; C.L.E.A.R.</span>Annual License </div>
+                <div class="plan-price"> $2880.00<span style="font-size:16px;">/yr</span> <br>
+                  <span class="period">per location </span> </div>
+                <a href="https://member.jibbio.com/signup.php?" class="btn btn-default"> Join <i class="fa fa fa-caret-right" aria-hidden="true"></i> </a> </div>
+              <ul class="plan-info">
+                <li> Pay for the year and SAVE 20%! Contact us for a license code. </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="steps" class="section-alt1">
+      <div class="container-fluid">
+        <div class="default-header text-center lazy-fade-u">
+          <h1>Getting Started</h1>
+        </div>
+        <div class="row" style="position:relative;">
+          <div class="col-md-2 col-md-offset-1 text-center step-1 lazy-fade-u">
+            <div class="step-image lazy"> <span class="step-icon"> 1 </span> </div>
+            <div class="step-info text-left" >
+              <div class="step-wrap"> <strong>Sign up</strong> now, and you will immediately receive a short questionnaire that should take you five minutes to complete.  Your responses are implemented in Step 2. </div>
+            </div>
+          </div>
+          <div class="col-md-2 text-center step-2 lazy-fade-u">
+            <div class="step-image lazy"> <span class="step-icon"> 2 </span> </div>
+            <div class="step-info text-left" >
+              <div class="step-wrap"> We <strong>set up</strong> your AskMIA™ or C2/C.L.E.A.R. core elements that includes customized large poster signage, advertising invitation letter and enrollment form for local businesses. </div>
+            </div>
+          </div>
+          <div class="col-md-2 text-center step-3 lazy-fade-u">
+            <div class="step-image lazy"> <span class="step-icon"> 3 </span> </div>
+            <div class="step-info text-left" >
+              <div class="step-wrap"> We <strong>email</strong> you the links, documents, and print signage created in Step 2. </div>
+            </div>
+          </div>
+          <div class="col-md-2 text-center step-4 lazy-fade-u">
+            <div class="step-image lazy"> <span class="step-icon"> 4 </span> </div>
+            <div class="step-info text-left" >
+              <div class="step-wrap"> You <strong>edit</strong> your AskMIA™ or C2/C.L.E.A.R. content as desired. </div>
+            </div>
+          </div>
+          <div class="col-md-2 text-center step-5 lazy-fade-u">
+            <div class="step-image lazy"> <span class="step-icon"> 5 </span> </div>
+            <div class="step-info text-left" >
+              <div class="step-wrap"> <strong>Launch</strong> and see results! </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <?php include "newsletter.php"; ?>
+  </main>
+  <?php include "footer.php"; ?>
+</div>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<div class="modal fade" id="captchaModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div id="reCaptcha" data-callback="reCaptchaCallback" data-sitekey="<?php echo $reCaptcha_publickey; ?>"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<?php include "bottom.php"; ?>
+<script>
+	$(window).load(function(e) {
+		$('.phone1-slider').bxSlider({pager:false, controls:false, auto:true});
+		$('.phone2-slider').bxSlider({pager:false, controls:false, auto:true});
+    });
+	$(document).ready(function(){
+		$('.testimonials').bxSlider({pager:false, auto:false, adaptiveHeight:true});
+		$('.accordion-faq').on('hidden.bs.collapse', toggleIcon);
+		$('.accordion-faq').on('shown.bs.collapse', toggleIcon);
+		//grecaptcha.render("reCaptcha", {sitekey: "<?php echo $reCaptcha_publickey; ?>", theme: "light"});
+		$(".btn-newsletter").click(function(e) {
+			var error = 0;
+			var $contactform = $('#frmNewsletter');
+			$('.required', $contactform).each(function (i) {
+				if ($(this).val() === '') {
+					error++;
+				} 
+			}); // each
+			if (error > 0) {
+					alert('Please enter your email address.');	
+			} else {
+				$("#captchaModal").modal("show");
+				/*
+				var email = $contactform.find('input[name="email"]').val();	
+				//submit the form
+				$.ajax({
+					type: "GET",
+					url: url,
+					data: {email: email},
+					success: function (data) {
+						if (data == '1') {
+							// show thank you 
+							alert('Thank you. You will now receive our periodic newsletters.');
+						}  else {
+							alert('Unable to send your message. Please try again.');
+						}
+					}
+				}); //$.ajax
+				*/
+			}
+			return false;
+		});
+
+		$('#captchaModal').on('shown.bs.modal', function () {
+			grecaptcha.render("reCaptcha", {sitekey: "<?php echo $reCaptcha_publickey; ?>", 
+			
+			callback : reCaptchaCallback,
+			theme: "light"});
+		});
+		$('#captchaModal').on('hide.bs.modal', function () {
+			grecaptcha.reset();
+		});	
+		
+	});
+	function toggleIcon(e) {
+		$(e.target)
+			.prev('.panel-header')
+			.find(".icon-rotate")
+			.toggleClass('fa-plus-circle fa-minus-circle');
+	}
+	function reCaptchaCallback() {
+
+		var url = 'newsletter-send.php';
+		var $contactform = $('#frmNewsletter');
+		var email = $contactform.find('input[name="email"]').val();	
+		var g_recaptcha_response = grecaptcha.getResponse();
+
+		//submit the form
+		$.ajax({
+			type: "POST",
+			url: url,
+			data: {email: email, g_recaptcha_response: g_recaptcha_response},
+			success: function (data) {
+				if (data == '1') {
+					// show thank you 
+					alert('Thank you. You will now receive our periodic newsletters.');
+				} else if(data == '2') {
+					alert('The reCAPTCHA wasn\'t entered correctly.');
+				}  else {
+					alert('Unable to send your message. Please try again.');
+				}
+				$('#captchaModal').modal('hide');
+			}
+		}); //$.ajax
+	};
+  </script>
+</body>
+</html>

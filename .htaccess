@@ -1,0 +1,18 @@
+Redirect 301 /page/index.html https://jee.jibbio.com
+Redirect 301 /page/jee-dashboard https://jee.jibbio.com/jee-dashboard.php
+Redirect 301 /page/jee-dashboard.html https://jee.jibbio.com/jee-dashboard.php
+Redirect 301 /page/jee-dashboard.html https://jee.jibbio.com/jee-dashboard.php
+Redirect 301 /page/features.php https://jee.jibbio.com/features.php
+Redirect 301 /page/create-a-form-make-online-forms-using-an-online-form-builder-software.php https://jee.jibbio.com/MAXeSites.php
+Redirect 301 /page/qr-code-generator-create-qr-codes-qr-code-purchase-qr-code-paypal.php https://jee.jibbio.com/3-in-1-qr-codes.php
+Redirect 301 /page/custom-keyword-url-shortening-redirection-service.php https://jee.jibbio.com/url-shortening.php
+Redirect 301 /page/pricing.php https://jee.jibbio.com/pricing.php
+Redirect 301 /page/about.php https://jee.jibbio.com/about.php
+Redirect 301 /page/contact.php https://jee.jibbio.com/contact.php
+Redirect 301 /page/affiliates.php https://jee.jibbio.com/B2B-partners.php
+Redirect 301 /page/terms_of_use https://jee.jibbio.com/tos.php
+Redirect 301 /page/terms_of_use.php https://jee.jibbio.com/tos.php
+Redirect 301 /page/privacy_policy.php https://jee.jibbio.com/privacy.php
+Redirect 301 /page/jibbio_customer_reviews_and_testimonials.php https://jee.jibbio.com/testimonials.php
+
+ErrorDocument 404 /error.php

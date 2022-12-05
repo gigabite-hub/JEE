@@ -23,10 +23,11 @@
 			}
 
 			.features-container {
-				max-width: 1420px;
+				max-width: 1170px;
 				width: 100%;
 				/* border: 1px solid #000000; */
 				margin: 0 auto;
+				padding: 0 10px;
 			}
 
 			.feature-heading h2 {
@@ -61,7 +62,7 @@
 			}
 
 			.tabs-items:nth-child(1) {
-				width: 40%;
+				width: 35%;
 			}
 
 
@@ -129,7 +130,7 @@
 
 			.rel-sec>h2 {
 				text-transform: uppercase;
-				font-size: 16px;
+				font-size: 35px;
 				color: #666666;
 				margin: 0px 0px 10px 10px;
 			}
@@ -258,7 +259,7 @@
 				flex-basis: auto;
 				align-self: auto;
 				order: 0;
-				width: 47.7%;
+				width: 46.5%;
 				margin:5px 10px;
 			}
 
@@ -499,7 +500,7 @@
 									<p>Use your own domain name for your online store website.</p>
 								</div>
 								<div class="tab-section-item tab-section-img">
-									<img src="/assets/img/domain.png" alt="">
+									<!-- <img src="/assets/img/domain.png" alt=""> -->
 									<!-- <h4>Customize and brand your online store</h4> -->
 									<!-- <p>Intuitive settings so you can easily customize and brand your online store.</p> -->
 								</div>
@@ -557,7 +558,7 @@
 									<p>Set country and state tax rates based on your location.</p>
 								</div>
 								<div class="tab-section-item tab-section-img">
-									<img src="/assets/img/payment.png" alt="">
+									<!-- <img src="/assets/img/payment.png" alt=""> -->
 									<!-- <h4>Customize and brand your online store</h4> -->
 									<!-- <p>Intuitive settings so you can easily customize and brand your online store.</p> -->
 								</div>
@@ -688,7 +689,7 @@
 								<div class="tab-section-item tab-section-img">
 									<h4>Subscriptions</h4>
 									<p>Add multiple images for your products, so you can display your product from all angles.</p>
-									<img src="/assets/img/graph.png" alt="">
+									<!-- <img src="/assets/img/graph.png" alt=""> -->
 								</div>
 							</div>
 						</div>
@@ -732,7 +733,7 @@
 									<p>Analyze and gain insight into your online store's growth. See which products are selling, and which ones are not.</p>
 								</div>
 								<div class="tab-section-item tab-section-img">
-									<img src="/assets/img/graph2.png" alt="">
+									<!-- <img src="/assets/img/graph2.png" alt=""> -->
 									<!-- <h4>Customize and brand your online store</h4> -->
 									<!-- <p>Intuitive settings so you can easily customize and brand your online store.</p> -->
 								</div>

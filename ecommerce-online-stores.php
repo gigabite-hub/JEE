@@ -265,6 +265,7 @@
 
 			.faq-container-item h3 {
 				text-align: left;
+				padding-left: 10px;
 			}
 
 			.faq-wrapper>h2{
@@ -462,7 +463,7 @@
 				<!-- Start with Tabs Section -->
 
 				<div class="feature-heading">
-					<h2>Featues</h2>
+					<h2>Features</h2>
 				</div>
 
 				<!-- Tabs Sections -->
@@ -770,7 +771,7 @@
 				<div class="bottom-det">
 					<h2>Start your business journey with Jibbio</h2>
 					<p>Try Jibbio Online Store Marketplace for free, and explore all the tools and services you need to start, run, and actually grow your business.</p>
-					<a href="">Start free trail</a>
+					<a href="">Start free trial</a>
 				</div>
 
 				<!-- End with Tabs Section -->

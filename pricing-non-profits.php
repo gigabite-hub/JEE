@@ -133,7 +133,7 @@
 }
 
 .feature-details td {
-    padding: 0px 10px;
+    padding: 10px 10px;
 }
 
 .feature-details td:not(:first-child) {
@@ -212,9 +212,8 @@
     color: #000000;
 }
 
-
-.feature-details td {
-    padding-top: 10px;
+.feature-details td dl {
+    margin-bottom: 0px;
 }
 
 </style>

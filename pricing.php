@@ -34,6 +34,199 @@
 	
 }
 
+
+/* Pricing Table */
+.pricing-container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    margin-bottom: 50px;
+}
+
+.pricing-container table tbody tr td:nth-child(1),
+.pricing-container table thead tr th:nth-child(1) {
+    width: 33.3333%;
+}
+
+.pricing-container table tbody tr td,
+.pricing-container table thead tr th {
+    width: 16.66666%;
+    border: 1px solid #d2d5d9;
+}
+
+.pricing-container table {
+    border-collapse: collapse;
+}
+
+.pricing-container table thead tr th {
+    text-align: center;
+}
+
+.pricing-section th h4 {
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    /* margin-bottom: 15px; */
+}
+
+.pricing-section p .currency {
+    color: #828a91;
+    font-size: 14px;
+    font-weight: 400;
+    padding-right: 0.25rem;
+}
+
+.pricing-section p .currency-symbol {
+    color: #212326;
+    font-size: 16px;
+    align-self: flex-start;
+}
+
+.pricing-section p .price {
+    font-size: 40px;
+    line-height: 2.8125rem;
+}
+
+.pricing-section p .per-month {
+    color: #828a91;
+    font-size: 18px;
+    line-height: 0.25rem;
+    font-weight: 400;
+    letter-spacing: normal;
+    padding-bottom: 0.75rem;
+    align-self: flex-end;
+}
+
+.pricing-section p {
+    margin: 0px;
+}
+
+
+.pricing-section th {
+    padding: 20px 0px
+}
+
+.pricing-container table thead tr th:nth-child(1) {
+    /* border: none; */
+}
+
+.pricing-container table tbody .features-sec th {
+    text-align: left;
+    background-color: #f0f1f2;
+    font-weight: 400;
+    padding: 10px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.feature-details td dl dd {
+    margin: 0px;
+    color: #6B7177;
+    font-size: 13px;
+}
+
+.feature-details td dl dt {
+    font-size: 14px;
+    color: #212326;
+    font-weight: normal;
+}
+
+.feature-details td {
+    padding: 10px 10px;
+}
+
+.feature-details td:not(:first-child) {
+    text-align: center;
+    color: #2c957b;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.feature-details:hover {
+    background-color: #f0f1f2;
+    transition: all 0.5s;
+}
+
+.features-sec {
+    border: 1px solid #d2d5d9;
+}
+
+.pricing-btn {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pricing-btn button {
+    background-color: #008060;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid #008060;
+}
+
+.pricing-btn button span {
+    color: #008060;
+    font-size: 16px;
+    font-weight: 600;
+}
+.pricing-btn button:hover {
+    background-color: #008060;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.pricing-btn button:hover span {
+    color: #ffffff;
+}
+
+.table-hide {
+    display: none;
+}
+
+.pri-hide {
+    display: none;
+}
+.pri-show {
+    display: block;
+}
+
+.table-wrapper table thead tr th {
+    background-color: transparent;
+}
+
+.pricing-container .table-wrapper {
+    display: none;
+}
+
+
+.pricing-section p .price  {
+    color: #000000;
+}
+
+.pricing-section th h4,
+.pricing-container table tbody .features-sec th,
+.pricing-section p .price {
+    color: #000000;
+}
+
+.feature-details td dl {
+    margin-bottom: 0px;
+}
+
+
+.colspan-5 th h4 {
+    text-align: center;
+}
+
+.colspan-5 th h4 a {
+    font-size: 18px;
+    font-weight: 600;
+}
+
 </style>
 </head>
 <body>
@@ -198,6 +391,992 @@
     </div>
 
 
+    <!-- Start of Tabel -->
+    <div class="pricing-wrapper">
+            <div class="pricing-container">
+
+                <div class="pricing-btn">
+                    <button class="btn-show-plan">
+                        <span class="btn-show">Compare plan features</span>
+                    </button>
+                    <!-- <button class="btn-hide-plan">
+                        <span class="btn-show">Hide plan features</span>
+                    </button> -->
+                </div>
+
+                <div class="table-wrapper">
+
+                    <table style="width: 100%;">
+                        <thead>
+                            <tr class="pricing-section">
+                                <th>&nbsp;</th>
+                                <th colspan="5">
+                                    <h4>Main Features</h4>
+                                </th>
+                                <!-- <th>
+                                    <h4>Shopify</h4>
+                                    <p>
+                                        <sup class="currency">USD</sup>
+                                        <sup class="currency-symbol">$</sup>
+                                        <span class="price heading--1">79</span>
+                                        <sub class="per-month">/mo</sub>
+                                    </p>
+                                </th>
+                                <th>
+                                    <h4>Advanced</h4>
+                                    <p>
+                                        <sup class="currency">USD</sup>
+                                        <sup class="currency-symbol">$</sup>
+                                        <span class="price heading--1">299</span>
+                                        <sub class="per-month">/mo</sub>
+                                    </p>
+                                </th> -->
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- <tr class="features-sec">
+                                <th colspan="6">Features</th>
+                            </tr> -->
+                            <tr class="feature-details">
+                                <td>&nbsp;</td>
+                                <td>
+                                    <span>SOHO</span>
+                                </td>
+                                <td>
+                                    <span>MICRO</span>
+                                </td>
+                                <td>
+                                    <span>MINI</span>
+                                </td>
+                                <td>
+                                    <span>SMALL</span>
+                                </td>
+                                <td>
+                                    <span>MIDSIZE</span>
+                                </td>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Online Store</dt>
+                                        <dd class="feature-label__description">Includes ecommerce website.</dd>
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Marketplace</dt>
+                                        <dd class="feature-label__description">Offer vendors the free option to sell their products on your website for a rev-share per sale.</dd>
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span></span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Vendor accounts</dt>
+                                        <dd class="feature-label__description">Each vendor has access to their own admin dashboard to add and manage products for sale on your website.</dd>
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span></span>
+                                </td>
+                                <td>
+                                    <span>4</span>
+                                </td>
+                                <td>
+                                    <span>10</span>
+                                </td>
+                                <td>
+                                    <span>21</span>
+                                </td>
+                                <td>
+                                    <span>45</span>
+                                </td>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Staff accounts</dt>
+                                        <dd class="feature-label__description">Each staff member has access to your online store website admin.</dd>
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span></span>
+                                </td>
+                                <td>
+                                    <span>2</span>
+                                </td>
+                                <td>
+                                    <span>3</span>
+                                </td>
+                                <td>
+                                    <span>5</span>
+                                </td>
+                                <td>
+                                    <span>7</span>
+                                </td>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Integrated MAXeSites</dt>
+                                        <dd class="feature-label__description">Create lead-capture forms and product information web pages per product, to improve conversions, generate leads, SEO, and web presence."</dd>
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span>10</span>
+                                </td>
+                                <td>
+                                    <span>20</span>
+                                </td>
+                                <td>
+                                    <span>60</span>
+                                </td>
+                                <td>
+                                    <span>150</span>
+                                </td>
+                                <td>
+                                    <span>500</span>
+                                </td>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Use your own domain</dt>
+                                        <!-- <dd class="feature-label__description">Create lead-capture forms and product information web pages per product, to improve conversions, generate leads, SEO, and web presence."</dd> -->
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Free SSL certificate</dt>
+                                        <!-- <dd class="feature-label__description">Create lead-capture forms and product information web pages per product, to improve conversions, generate leads, SEO, and web presence."</dd> -->
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">SEO tools</dt>
+                                        <!-- <dd class="feature-label__description">Create lead-capture forms and product information web pages per product, to improve conversions, generate leads, SEO, and web presence."</dd> -->
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Unlimited contacts</dt>
+                                        <!-- <dd class="feature-label__description">Create lead-capture forms and product information web pages per product, to improve conversions, generate leads, SEO, and web presence."</dd> -->
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Unlimited physical products</dt>
+                                        <!-- <dd class="feature-label__description">Create lead-capture forms and product information web pages per product, to improve conversions, generate leads, SEO, and web presence."</dd> -->
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Unlimited digital products</dt>
+                                        <!-- <dd class="feature-label__description">Create lead-capture forms and product information web pages per product, to improve conversions, generate leads, SEO, and web presence."</dd> -->
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Unlimited subscriptions</dt>
+                                        <!-- <dd class="feature-label__description">Create lead-capture forms and product information web pages per product, to improve conversions, generate leads, SEO, and web presence."</dd> -->
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span></span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Recurring payments</dt>
+                                        <!-- <dd class="feature-label__description">Create lead-capture forms and product information web pages per product, to improve conversions, generate leads, SEO, and web presence."</dd> -->
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span></span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Abandoned cart recovery</dt>
+                                        <!-- <dd class="feature-label__description">Create lead-capture forms and product information web pages per product, to improve conversions, generate leads, SEO, and web presence."</dd> -->
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span></span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Product reviews</dt>
+                                        <!-- <dd class="feature-label__description">Create lead-capture forms and product information web pages per product, to improve conversions, generate leads, SEO, and web presence."</dd> -->
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span></span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Discount codes</dt>
+                                        <!-- <dd class="feature-label__description">Create lead-capture forms and product information web pages per product, to improve conversions, generate leads, SEO, and web presence."</dd> -->
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Gift cards</dt>
+                                        <!-- <dd class="feature-label__description">Create lead-capture forms and product information web pages per product, to improve conversions, generate leads, SEO, and web presence."</dd> -->
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Invoices</dt>
+                                        <!-- <dd class="feature-label__description">Create lead-capture forms and product information web pages per product, to improve conversions, generate leads, SEO, and web presence."</dd> -->
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Sell directly on social media</dt>
+                                        <!-- <dd class="feature-label__description">Create lead-capture forms and product information web pages per product, to improve conversions, generate leads, SEO, and web presence."</dd> -->
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Sell on other Jibbio online stores</dt>
+                                        <dd class="feature-label__description">Sell your products on other Jibbio online store marketplace websites for more exposure.</dd>
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Marketing automation</dt>
+                                        <dd class="feature-label__description">Send automated emails with templated or custom workflows.</dd>
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Ecommerce automations</dt>
+                                        <dd class="feature-label__description">Automate manual tasks, build workflows, and grow your business.</dd>
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span></span>
+                                </td>
+                                <td>
+                                    <span></span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Reports</dt>
+                                        <!-- <dd class="feature-label__description">ell your products on other Jibbio online store marketplace websites for more exposure.</dd> -->
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                            </tr>
+                            <!-- Break Section -->
+                            <tr class="features-sec">
+                                <th colspan="6">Orders & Fulfillment </th>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Inventory locations</dt>
+                                        <dd class="feature-label__description">Assign inventory to retail stores, warehouses, pop-ups, or wherever you store products.</dd>
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span>up to 4</span>
+                                </td>
+                                <td>
+                                    <span>up to 5</span>
+                                </td>
+                                <td>
+                                    <span>up to 5</span>
+                                </td>
+                                <td>
+                                    <span>up to 5</span>
+                                </td>
+                                <td>
+                                    <span>up to 8</span>
+                                </td>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Manual order creation</dt>
+                                        <!-- <dd class="feature-label__description">ell your products on other Jibbio online store marketplace websites for more exposure.</dd> -->
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">In-house delivery</dt>
+                                        <!-- <dd class="feature-label__description">ell your products on other Jibbio online store marketplace websites for more exposure.</dd> -->
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">In-store & curbsite pickup</dt>
+                                        <!-- <dd class="feature-label__description">ell your products on other Jibbio online store marketplace websites for more exposure.</dd> -->
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Order status text alerts</dt>
+                                        <!-- <dd class="feature-label__description">ell your products on other Jibbio online store marketplace websites for more exposure.</dd> -->
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Operations management</dt>
+                                        <!-- <dd class="feature-label__description">ell your products on other Jibbio online store marketplace websites for more exposure.</dd> -->
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Shipping label printing</dt>
+                                        <!-- <dd class="feature-label__description">ell your products on other Jibbio online store marketplace websites for more exposure.</dd> -->
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Third-party calculated shipping rates</dt>
+                                        <dd class="feature-label__description">Show calculated rates with your own account or third-party apps at checkout.</dd>
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span></span>
+                                </td>
+                                <td>
+                                    <span></span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Real-time shipping</dt>
+                                        <!-- <dd class="feature-label__description">ell your products on other Jibbio online store marketplace websites for more exposure.</dd> -->
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                            </tr>
+                            <tr class="features-sec colspan-5   ">
+                                <th>&nbsp;</th>
+                                <th colspan="5">
+                                    <h4>Payments</h4>
+                                </th>
+                            </tr>
+                            <!--  -->
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">PayPal and Stripe</dt>
+                                        <!-- <dd class="feature-label__description">Start an online store with Shopify’s robust ecommerce platform.</dd> -->
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Online credit card rates</dt>
+                                        <!-- <dd class="feature-label__description">Start an online store with Shopify’s robust ecommerce platform.</dd> -->
+                                    </dl>
+                                </td>
+                                <td colspan="5">
+                                    <span>(add links to PayPal and Stripe websites for rates)</span>
+                                </td>                                
+                            </tr>
+                            <tr class="features-sec colspan-5">
+                                <th>&nbsp;</th>
+                                <th colspan="5">
+                                    <h4><a href="https://www.shopify.com/pos/features" class="btn btn--primary btn--large">Point of Sale</a></h4>
+                                </th>
+                            </tr>
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">POS Lite</dt>
+                                        <dd class="feature-label__description">Accept in-person payments instantly at pop-ups, markets, fairs, and more.</dd>
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span>?</span>
+                                </td>
+                                <td>
+                                    <span>?</span>
+                                </td>
+                                <td>
+                                    <span>?</span>
+                                </td>
+                                <td>
+                                    <span>?</span>
+                                </td>
+                                <td>
+                                    <span>?</span>
+                                </td>
+                            </tr>
+                            <tr class="features-sec colspan-5">
+                                <th>&nbsp;</th>
+                                <th colspan="5">
+                                    <h4><a href="https://www.shopify.com/markets" class="btn btn--primary btn--large">International commerce</a></h4>
+                                </th>
+                            </tr>
+
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Language translation</dt>
+                                        <dd class="feature-label__description">Assign translated languages to customers in different markets to provide a familiar shopping experience.</dd>
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                            </tr>
+
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Currency conversion</dt>
+                                        <dd class="feature-label__description">Automatically convert prices into your customer’s local currency to drive conversion in each market (requires Shopify Payments).</dd>
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                            </tr>
+
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Local payment methods</dt>
+                                        <dd class="feature-label__description">Set local payment methods to appear for customers who check out in specific markets (requires Shopify Payments).</dd>
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                            </tr>
+
+                            <tr class="feature-details">
+                                <td>
+                                    <dl class="feature-label">
+                                        <dt class="feature-label__text">Custom pricing by market</dt>
+                                        <dd class="feature-label__description">Take greater control of your international pricing strategy by setting specific prices for products or product variants in each market.</dd>
+                                    </dl>
+                                </td>
+                                <td>
+                                    <span>No_</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                                <td>
+                                    <span>Yes</span>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+        <!-- End of Tabel -->
+
+
 
 
 
@@ -229,7 +1408,11 @@
 <script>
 	$(document).ready(function(){
 		$('.about-banner').bxSlider({pager:false, auto:true, controls:false, pager:true});
+    $('.btn-show-plan').click(function() {
+        $('.pricing-container .table-wrapper').slideToggle("slow");
+    });
 	});
+
   </script>
 </body>
 </html>

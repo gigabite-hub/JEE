@@ -28,6 +28,7 @@
 				/* border: 1px solid #000000; */
 				margin: 0 auto;
 				padding: 0 10px;
+				margin-top: 100px;
 			}
 
 			.feature-heading h2 {

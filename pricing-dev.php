@@ -204,7 +204,7 @@
 }
 
 .pricing-container .table-wrapper {
-    /* display: none; */
+    display: none;
 }
 
 
@@ -1413,9 +1413,9 @@
 <script>
 	$(document).ready(function(){
 		$('.about-banner').bxSlider({pager:false, auto:true, controls:false, pager:true});
-        // $('.btn-show-plan').click(function() {
-        //     $('.pricing-container .table-wrapper').slideToggle("slow");
-        // });
+        $('.btn-show-plan').click(function() {
+            $('.pricing-container .table-wrapper').slideToggle("slow");
+        });
 	});
 
   </script>

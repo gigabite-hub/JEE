@@ -204,7 +204,7 @@
 }
 
 .pricing-container .table-wrapper {
-    /* display: none; */
+    display: none;
 }
 
 

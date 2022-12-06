@@ -463,19 +463,19 @@
                                     </dl>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                             </tr>
                             <tr class="feature-details">
@@ -489,16 +489,16 @@
                                     <span></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                             </tr>
                             <tr class="feature-details">
@@ -578,19 +578,19 @@
                                     </dl>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                             </tr>
                             <tr class="feature-details">
@@ -601,19 +601,19 @@
                                     </dl>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                             </tr>
                             <tr class="feature-details">
@@ -624,19 +624,19 @@
                                     </dl>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                             </tr>
                             <tr class="feature-details">
@@ -647,19 +647,19 @@
                                     </dl>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                             </tr>
                             <tr class="feature-details">
@@ -670,19 +670,19 @@
                                     </dl>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                             </tr>
                             <tr class="feature-details">
@@ -693,19 +693,19 @@
                                     </dl>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                             </tr>
                             <tr class="feature-details">
@@ -719,16 +719,16 @@
                                     <span></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                             </tr>
                             <tr class="feature-details">
@@ -742,16 +742,16 @@
                                     <span></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                             </tr>
                             <tr class="feature-details">
@@ -765,16 +765,16 @@
                                     <span></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                             </tr>
                             <tr class="feature-details">
@@ -788,16 +788,16 @@
                                     <span></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                             </tr>
                             <tr class="feature-details">
@@ -808,19 +808,19 @@
                                     </dl>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                             </tr>
                             <tr class="feature-details">
@@ -831,19 +831,19 @@
                                     </dl>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                             </tr>
                             <tr class="feature-details">
@@ -854,19 +854,19 @@
                                     </dl>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                             </tr>
                             <tr class="feature-details">
@@ -877,19 +877,19 @@
                                     </dl>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                             </tr>
                             <tr class="feature-details">
@@ -900,19 +900,19 @@
                                     </dl>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                             </tr>
                             <tr class="feature-details">
@@ -923,19 +923,19 @@
                                     </dl>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                             </tr>
                             <tr class="feature-details">
@@ -952,13 +952,13 @@
                                     <span></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                             </tr>
                             <tr class="feature-details">
@@ -969,19 +969,19 @@
                                     </dl>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                             </tr>
                             <!-- Break Section -->
@@ -1019,19 +1019,19 @@
                                     </dl>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                             </tr>
                             <tr class="feature-details">
@@ -1042,19 +1042,19 @@
                                     </dl>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                             </tr>
                             <tr class="feature-details">
@@ -1065,19 +1065,19 @@
                                     </dl>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                             </tr>
                             <tr class="feature-details">
@@ -1088,19 +1088,19 @@
                                     </dl>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                             </tr>
                             <tr class="feature-details">
@@ -1111,19 +1111,19 @@
                                     </dl>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                             </tr>
                             <tr class="feature-details">
@@ -1134,19 +1134,19 @@
                                     </dl>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                             </tr>
                             <tr class="feature-details">
@@ -1163,13 +1163,13 @@
                                     <span></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                             </tr>
                             <tr class="feature-details">
@@ -1180,19 +1180,19 @@
                                     </dl>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                             </tr>
                             <tr class="features-sec colspan-5   ">
@@ -1210,19 +1210,19 @@
                                     </dl>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                             </tr>
                             <tr class="feature-details">
@@ -1280,19 +1280,19 @@
                                     </dl>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                             </tr>
 
@@ -1304,19 +1304,19 @@
                                     </dl>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                             </tr>
 
@@ -1328,19 +1328,19 @@
                                     </dl>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                             </tr>
 
@@ -1352,19 +1352,19 @@
                                     </dl>
                                 </td>
                                 <td>
-                                    <span>No_</span>
+                                    <span><i class="fas fa-times"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                                 <td>
-                                    <span>Yes</span>
+                                    <span><i class="fas fa-check"></i></span>
                                 </td>
                             </tr>
 
@@ -1414,5 +1414,6 @@
 	});
 
   </script>
+  <script src="https://kit.fontawesome.com/c36fe64df0.js"></script>
 </body>
 </html>

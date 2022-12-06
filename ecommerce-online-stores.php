@@ -462,9 +462,9 @@
 
 				<!-- Start with Tabs Section -->
 
-				<div class="feature-heading">
+				<!-- <div class="feature-heading">
 					<h2>Features</h2>
-				</div>
+				</div> -->
 
 				<!-- Tabs Sections -->
 

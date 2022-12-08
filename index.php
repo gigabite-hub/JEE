@@ -70,7 +70,7 @@ body.modal-open .modal {
 
 	  <!--Top Section Start-->
           
-		  <div class="row display-flex-center" >
+		  <div class="row display-flex-center jee-index" >
 		            
             <div class="col-md-4 mt-2 col-xs-12" style="font-size:16px;margin-top:20px;">
               

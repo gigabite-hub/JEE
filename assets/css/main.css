@@ -5,13 +5,14 @@ body {
 
 #wrapper {
 	position: relative;
+	/* overflow: hidden; */
 }
 
 a:focus {
 	outline: none;
 }
 
-#ad-revenue {
+/* #ad-revenue {
 	overflow: hidden;
 	max-width: 1140px;
 	width: 100%;
@@ -35,7 +36,7 @@ a:focus {
 	#ad-revenue {
 		overflow: hidden !important;
 	}
-}
+} */
 
 .form-control {
 	background: #ffffff none repeat scroll 0 0;
